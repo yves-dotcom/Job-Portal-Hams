@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Hams - Job Portal</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="job icon" href="images/Job Icon.png" type="image/x-icon">
+</head>
+<body>
+
+<div class="w3-top">
+    <div class="w3-bar w3-white w3-card w3-large" id="navbar">
+        <a href="#" class="w3-bar-item w3-button w3-padding-large w3-text-teal w3-hover-white"><b>HAMS</b></a>
+        <button class="w3-bar-item w3-button w3-padding-large w3-right mobile-menu-btn">
+            <i class="fa fa-bars"></i>
+        </button>
+        <div class="w3-right w3-hide-small">
+            <a href="#jobs" class="w3-bar-item w3-button w3-padding-large w3-hover-teal">Browse Jobs</a>
+            <a href="#companies" class="w3-bar-item w3-button w3-padding-large w3-hover-teal">Companies</a>
+            <a href="#services" class="w3-bar-item w3-button w3-padding-large w3-hover-teal">Services</a>
+            <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-teal">Contact</a>
+            <a href="#" class="w3-bar-item w3-button w3-padding-large w3-teal w3-round">Login / Register</a>
+        </div>
+    </div>
+</div>
+
+<header class="hero-image">
+    <div class="hero-text">
+        <h1 class="w3-xxlarge">Find Your Dream Job Today</h1>
+        <p class="w3-large">Thousands of jobs waiting for you</p>
+        
+        <div class="search-box w3-hide-small">
+            <div class="w3-row">
+                <div class="w3-col s8 m8 l8">
+                    <input class="w3-input w3-border" type="text" placeholder="Job title, keywords, or company">
+                </div>
+                <div class="w3-col s4 m4 l4">
+                    <button class="w3-button w3-teal w3-block w3-hover-dark-grey">Search</button>
+                </div>
+            </div>
+            <div class="w3-row w3-margin-top">
+                <div class="w3-col s4 m4 l4">
+                    <select class="w3-select w3-border">
+                        <option value="" disabled selected>Location</option>
+                        <option value="1">New York</option>
+                        <option value="2">San Francisco</option>
+                        <option value="3">Chicago</option>
+                    </select>
+                </div>
+                <div class="w3-col s4 m4 l4">
+                    <select class="w3-select w3-border">
+                        <option value="" disabled selected>Job Type</option>
+                        <option value="1">Full-time</option>
+                        <option value="2">Part-time</option>
+                        <option value="3">Remote</option>
+                    </select>
+                </div>
+                <div class="w3-col s4 m4 l4">
+                    <select class="w3-select w3-border">
+                        <option value="" disabled selected>Experience</option>
+                        <option value="1">Entry Level</option>
+                        <option value="2">Mid Level</option>
+                        <option value="3">Senior Level</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div class="w3-container w3-padding-16 w3-teal w3-hide-medium w3-hide-large">
+    <div class="w3-row">
+        <div class="w3-col s10 m10">
+            <input class="w3-input w3-border" type="text" placeholder="Job title, keywords, or company">
+        </div>
+        <div class="w3-col s2 m2">
+            <button class="w3-button w3-white w3-round"><i class="fa fa-search"></i></button>
+        </div>
+    </div>
+</div>
+
+<div class="w3-main" style="margin-top: 50px;">
+
+    <div class="w3-container w3-padding-64" id="jobs">
+        <h2 class="w3-center section-title">Latest Job Openings</h2>
+        <p class="w3-center w3-large">Browse our most recent job listings</p>
+        
+        <div class="w3-row-padding w3-margin-top">
+            <div class="w3-col l4 m6 s12">
+                <div class="w3-card w3-white job-card">
+                    <div class="job-card-content">
+                        <div class="w3-display-container">
+                            <img src="https://logo.clearbit.com/google.com" alt="Google" class="company-logo">
+                            <span class="w3-tag w3-teal w3-small w3-display-topright w3-round">New</span>
+                        </div>
+                        <h3>Frontend Developer</h3>
+                        <h4 class="w3-text-grey">Google</h4>
+                        <p><i class="fa fa-map-marker job-detail-icon"></i> Mountain View, CA</p>
+                        <p><i class="fa fa-money job-detail-icon"></i> $120,000 - $150,000</p>
+                        <p><i class="fa fa-briefcase job-detail-icon"></i> Full-time</p>
+                        <div class="w3-margin-top w3-margin-bottom">
+                            <span class="w3-tag w3-light-grey job-tag">React</span>
+                            <span class="w3-tag w3-light-grey job-tag">JavaScript</span>
+                            <span class="w3-tag w3-light-grey job-tag">UI/UX</span>
+                        </div>
+                        <p class="w3-opacity">We're looking for an experienced frontend developer to join our team...</p>
+                        <div class="w3-margin-top">
+                            <button class="w3-button w3-teal w3-small btn-rounded">View Details</button>
+                            <button class="w3-button w3-white w3-border w3-small btn-rounded">Save Job</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="w3-col l4 m6 s12">
+                <div class="w3-card w3-white job-card">
+                    <div class="job-card-content">
+                        <img src="https://logo.clearbit.com/amazon.com" alt="Amazon" class="company-logo">
+                        <h3>UX Designer</h3>
+                        <h4 class="w3-text-grey">Amazon</h4>
+                        <p><i class="fa fa-map-marker job-detail-icon"></i> Seattle, WA</p>
+                        <p><i class="fa fa-money job-detail-icon"></i> $110,000 - $140,000</p>
+                        <p><i class="fa fa-briefcase job-detail-icon"></i> Full-time</p>
+                        <div class="w3-margin-top w3-margin-bottom">
+                            <span class="w3-tag w3-light-grey job-tag">Figma</span>
+                            <span class="w3-tag w3-light-grey job-tag">User Research</span>
+                            <span class="w3-tag w3-light-grey job-tag">Prototyping</span>
+                        </div>
+                        <p class="w3-opacity">Join our design team to create amazing user experiences for millions of customers...</p>
+                        <div class="w3-margin-top">
+                            <button class="w3-button w3-teal w3-small btn-rounded">View Details</button>
+                            <button class="w3-button w3-white w3-border w3-small btn-rounded">Save Job</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="w3-col l4 m6 s12">
+                <div class="w3-card w3-white job-card">
+                    <div class="job-card-content">
+                        <img src="https://logo.clearbit.com/microsoft.com" alt="Microsoft" class="company-logo">
+                        <h3>Backend Engineer</h3>
+                        <h4 class="w3-text-grey">Microsoft</h4>
+                        <p><i class="fa fa-map-marker job-detail-icon"></i> Remote</p>
+                        <p><i class="fa fa-money job-detail-icon"></i> $130,000 - $160,000</p>
+                        <p><i class="fa fa-briefcase job-detail-icon"></i> Full-time</p>
+                        <div class="w3-margin-top w3-margin-bottom">
+                            <span class="w3-tag w3-light-grey job-tag">Node.js</span>
+                            <span class="w3-tag w3-light-grey job-tag">AWS</span>
+                            <span class="w3-tag w3-light-grey job-tag">Microservices</span>
+                        </div>
+                        <p class="w3-opacity">Looking for a backend engineer with experience in cloud services and distributed systems...</p>
+                        <div class="w3-margin-top">
+                            <button class="w3-button w3-teal w3-small btn-rounded">View Details</button>
+                            <button class="w3-button w3-white w3-border w3-small btn-rounded">Save Job</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="w3-col l4 m6 s12">
+                <div class="w3-card w3-white job-card">
+                    <div class="job-card-content">
+                        <img src="https://logo.clearbit.com/facebook.com" alt="Facebook" class="company-logo">
+                        <h3>Data Scientist</h3>
+                        <h4 class="w3-text-grey">Meta</h4>
+                        <p><i class="fa fa-map-marker job-detail-icon"></i> Menlo Park, CA</p>
+                        <p><i class="fa fa-money job-detail-icon"></i> $140,000 - $180,000</p>
+                        <p><i class="fa fa-briefcase job-detail-icon"></i> Full-time</p>
+                        <div class="w3-margin-top w3-margin-bottom">
+                            <span class="w3-tag w3-light-grey job-tag">Python</span>
+                            <span class="w3-tag w3-light-grey job-tag">Machine Learning</span>
+                            <span class="w3-tag w3-light-grey job-tag">SQL</span>
+                        </div>
+                        <p class="w3-opacity">Join our data science team to analyze large datasets and derive meaningful insights...</p>
+                        <div class="w3-margin-top">
+                            <button class="w3-button w3-teal w3-small btn-rounded">View Details</button>
+                            <button class="w3-button w3-white w3-border w3-small btn-rounded">Save Job</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="w3-col l4 m6 s12">
+                <div class="w3-card w3-white job-card">
+                    <div class="job-card-content">
+                        <img src="https://logo.clearbit.com/apple.com" alt="Apple" class="company-logo">
+                        <h3>iOS Developer</h3>
+                        <h4 class="w3-text-grey">Apple</h4>
+                        <p><i class="fa fa-map-marker job-detail-icon"></i> Cupertino, CA</p>
+                        <p><i class="fa fa-money job-detail-icon"></i> $125,000 - $155,000</p>
+                        <p><i class="fa fa-briefcase job-detail-icon"></i> Full-time</p>
+                        <div class="w3-margin-top w3-margin-bottom">
+                            <span class="w3-tag w3-light-grey job-tag">Swift</span>
+                            <span class="w3-tag w3-light-grey job-tag">UIKit</span>
+                            <span class="w3-tag w3-light-grey job-tag">Xcode</span>
+                        </div>
+                        <p class="w3-opacity">We're hiring iOS developers to work on the next generation of Apple apps...</p>
+                        <div class="w3-margin-top">
+                            <button class="w3-button w3-teal w3-small btn-rounded">View Details</button>
+                            <button class="w3-button w3-white w3-border w3-small btn-rounded">Save Job</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="w3-center w3-padding-32">
+            <button class="w3-button w3-teal w3-padding-large btn-rounded">Load More Jobs</button>
+        </div>
+    </div>
+    
+    <div class="w3-container w3-light-grey w3-padding-64" id="services">
+        <h2 class="w3-center section-title">Our Services</h2>
+        <div class="w3-row-padding">
+            <div class="w3-col m4 w3-center">
+                <div class="feature-box">
+                    <i class="fa fa-search feature-icon"></i>
+                    <h3>Find Jobs</h3>
+                    <p class="w3-opacity">Search through thousands of job listings to find your perfect match with our advanced filtering system.</p>
+                </div>
+            </div>
+            <div class="w3-col m4 w3-center">
+                <div class="feature-box">
+                    <i class="fa fa-file-text feature-icon"></i>
+                    <h3>Create Profile</h3>
+                    <p class="w3-opacity">Build your professional profile and let employers find you based on your skills and experience.</p>
+                </div>
+            </div>
+            <div class="w3-col m4 w3-center">
+                <div class="feature-box">
+                    <i class="fa fa-bell feature-icon"></i>
+                    <h3>Get Alerts</h3>
+                    <p class="w3-opacity">Receive instant notifications when new jobs matching your criteria are posted.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="w3-container w3-padding-64" id="companies">
+        <h2 class="w3-center section-title">Top Hiring Companies</h2>
+        <p class="w3-center w3-large">Trusted by the best companies worldwide</p>
+        
+        <div class="w3-row-padding w3-center w3-margin-top">
+            <div class="w3-col l2 m4 s6 w3-margin-bottom">
+                <div class="w3-card w3-padding company-card">
+                    <img src="https://logo.clearbit.com/google.com" style="width:100%">
+                </div>
+            </div>
+            <div class="w3-col l2 m4 s6 w3-margin-bottom">
+                <div class="w3-card w3-padding company-card">
+                    <img src="https://logo.clearbit.com/amazon.com" style="width:100%">
+                </div>
+            </div>
+            <div class="w3-col l2 m4 s6 w3-margin-bottom">
+                <div class="w3-card w3-padding company-card">
+                    <img src="https://logo.clearbit.com/microsoft.com" style="width:100%">
+                </div>
+            </div>
+            <div class="w3-col l2 m4 s6 w3-margin-bottom">
+                <div class="w3-card w3-padding company-card">
+                    <img src="https://logo.clearbit.com/apple.com" style="width:100%">
+                </div>
+            </div>
+            <div class="w3-col l2 m4 s6 w3-margin-bottom">
+                <div class="w3-card w3-padding company-card">
+                    <img src="https://logo.clearbit.com/facebook.com" style="width:100%">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="w3-container w3-light-grey w3-padding-64">
+        <h2 class="w3-center section-title">What Our Users Say</h2>
+        <div class="w3-row-padding">
+            <div class="w3-col m4 w3-margin-bottom">
+                <div class="w3-card w3-white testimonial-card">
+                    <p class="w3-large"><i class="fa fa-quote-left w3-text-teal"></i> Found my dream job within a week of using Hams! The process was so smooth and easy.</p>
+                    <div class="w3-row w3-margin-top">
+                        <div class="w3-col s3">
+                            <img src="images/GM.png" style="width:100%" class="w3-circle">
+                        </div>
+                        <div class="w3-col s9 w3-padding">
+                            <h4>Eteri Plieva</h4>
+                            <p class="w3-opacity">Product Manager at Google</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w3-col m4 w3-margin-bottom">
+                <div class="w3-card w3-white testimonial-card">
+                    <p class="w3-large"><i class="fa fa-quote-left w3-text-teal"></i> As a recruiter, Hams has helped me find top talent quickly. The platform is intuitive and effective.</p>
+                    <div class="w3-row w3-margin-top">
+                        <div class="w3-col s3">
+                            <img src="images/AM.png" style="width:100%" class="w3-circle">
+                        </div>
+                        <div class="w3-col s9 w3-padding">
+                            <h4>Ubheydeep Singh</h4>
+                            <p class="w3-opacity">HR Director at Amazon</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w3-col m4 w3-margin-bottom">
+                <div class="w3-card w3-white testimonial-card">
+                    <p class="w3-large"><i class="fa fa-quote-left w3-text-teal"></i> The job matching algorithm is spot on! I received offers that perfectly matched my skills and preferences.</p>
+                    <div class="w3-row w3-margin-top">
+                        <div class="w3-col s3">
+                            <img src="images/Micro.png" style="width:100%" class="w3-circle">
+                        </div>
+                        <div class="w3-col s9 w3-padding">
+                            <h4>Angelo Santos</h4>
+                            <p class="w3-opacity">Senior Developer at Microsoft</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="w3-container w3-teal w3-padding-64">
+        <div class="w3-row">
+            <div class="w3-col m8">
+                <h2>Ready to take the next step in your career?</h2>
+                <p class="w3-large">Join thousands of professionals who found their dream jobs through Hams.</p>
+            </div>
+            <div class="w3-col m4 w3-center">
+                <button class="w3-button w3-white w3-padding-large w3-large w3-hover-opacity-off btn-rounded">Create Free Account</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="w3-container w3-padding-64" id="contact">
+        <h2 class="w3-center section-title">Contact Us</h2>
+        <div class="w3-row-padding">
+            <div class="w3-col m5">
+                <div class="w3-padding-16">
+                    <span class="w3-opacity w3-large">Get in touch</span>
+                </div>
+                <p><i class="fa fa-map-marker w3-text-teal w3-large"></i> 25th Floor, PBCom Tower, Ayala Avenue, Makati City, Philippines</p>
+                <p><i class="fa fa-phone w3-text-teal w3-large"></i> +63 2 8888 1234</p>
+                <p><i class="fa fa-envelope w3-text-teal w3-large"></i> info@Hams.com</p>
+                <div class="w3-padding-16">
+                    <span class="w3-opacity w3-large">Follow us</span>
+                </div>
+                <p>
+                    <a href="https://www.facebook.com/markian.hamot.1" target="_blank" class="w3-button w3-teal w3-round w3-margin-right"><i class="fa fa-facebook"></i></a>
+                </p>
+            </div>
+            <div class="w3-col m7">
+                <form class="w3-container w3-card w3-padding-32">
+                    <div class="w3-section">
+                        <label>Name</label>
+                        <input class="w3-input w3-border" type="text" name="Name" required>
+                    </div>
+                    <div class="w3-section">
+                        <label>Email</label>
+                        <input class="w3-input w3-border" type="text" name="Email" required>
+                    </div>
+                    <div class="w3-section">
+                        <label>Subject</label>
+                        <input class="w3-input w3-border" type="text" name="Subject" required>
+                    </div>
+                    <div class="w3-section">
+                        <label>Message</label>
+                        <textarea class="w3-input w3-border" name="Message" required style="height:150px"></textarea>
+                    </div>
+                    <button type="submit" class="w3-button w3-teal w3-right btn-rounded">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="w3-container w3-dark-grey w3-padding-32">
+    <div class="w3-row-padding">
+        <div class="w3-col s4 w3-margin-bottom">
+            <h4>Hams</h4>
+            <p class="w3-opacity">Connecting talent with opportunity since 2015.</p>
+            <p>&copy; 2023 Hams. All rights reserved.</p>
+        </div>
+        <div class="w3-col s4 w3-margin-bottom">
+            <h4>Quick Links</h4>
+            <p><a href="#" class="w3-hover-text-teal">About Us</a></p>
+            <p><a href="#" class="w3-hover-text-teal">Privacy Policy</a></p>
+            <p><a href="#" class="w3-hover-text-teal">Terms of Service</a></p>
+            <p><a href="#" class="w3-hover-text-teal">FAQ</a></p>
+        </div>
+        <div class="w3-col s4 w3-margin-bottom">
+            <h4>Newsletter</h4>
+            <p>Subscribe to get job alerts and career tips</p>
+            <div class="w3-row">
+                <div class="w3-col s8">
+                    <input class="w3-input w3-border" type="text" placeholder="Your Email">
+                </div>
+                <div class="w3-col s4">
+                    <button class="w3-button w3-teal w3-block">Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
